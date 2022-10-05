@@ -1,0 +1,41 @@
+.container {
+  max-width: 480px;
+  max-height: 446px;
+}
+
+.cardImg {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #7d4aea;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.card1text {
+  font-size: 30px;
+}
+.card1text2 {
+  font-size: 20px;
+}
+.input {
+}
+
+.card1but1 {
+  width: 100px;
+  height: 30px;
+  margin-left: 110px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.card1but2 {
+  width: 100px;
+  height: 30px;
+  margin-left: 50px;
+  border-radius: 5px;
+  background: #7d4aea;
+  color: white;
+}

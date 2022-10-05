@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1195px;
+  margin: auto;
+  padding-top: 23px;
+}
+
+.leftContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+
+  .logoText {
+    margin-left: 10px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 82px;
+  }
+
+  .menu span:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .tryForFreeButton {
+    width: 120px;
+    height: 35px;
+    border-radius: 12px;
+    color: white;
+    background-color: #7d4aea;
+    margin-left: 30px;
+  }
+}
